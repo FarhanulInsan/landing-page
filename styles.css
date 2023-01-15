@@ -91,6 +91,7 @@ body {
   border-radius: 15px;
   border: #3882F6 solid;
   margin-bottom: 10px;
+  object-fit: cover;
 }
 
 .quote {
