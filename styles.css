@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   margin: 0;
   flex-direction: column;
@@ -36,6 +36,7 @@ body {
 .main-text {
   color: #F9FAF8;
   font-size: 48px;
+  font-weight: 900;
 }
 
 .desc-text {
@@ -89,6 +90,23 @@ body {
   border-radius: 15px;
   border: #3882F6 solid;
   margin-bottom: 10px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 80px 200px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  text-align: center;
+}
+
+.quote-author {
+  font-weight: bold;
+  text-align: end;
 }
 
 a {
